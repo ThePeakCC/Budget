@@ -85,6 +85,6 @@ li small, li small em {
 .input-group-addon {
 	background-color: #fff;
 }
-.form-inline {
-	margin-bottom: 50px;
+.inline-form {
+    display: inline;
 }
