@@ -27,7 +27,7 @@ div.intro {
 	padding: 10pt 0 20pt 0;
 }
 
- ol {
+ol {
    list-style: none;
  }
  li {
@@ -52,13 +52,10 @@ div.intro {
    font-size: 18pt;
  }
  
- input.btn, select {
-   background-color: #663399;
+.btn {
+   background-color: #663366;
    color: white;
    border: none;
-   height: 32px;
-   line-height: 32px;
-   font-size: 14pt;
 }
 
 input.email {
@@ -68,23 +65,11 @@ input.email {
 	border-radius: 5px;
 	width: auto;
 
-input.numbers {	
-	text-align: right; 
-}
-
-button.btn.btn-primary {
-   background-color: #663399 !important;
-   border: none;
-}
-
 li small, li small em {
 	font-size: 10pt;
 	font-family: 'helveticaNeue-light';
 }
 
-.input-group-addon {
-	background-color: #fff;
-}
 .inline-form {
     display: inline;
 }
