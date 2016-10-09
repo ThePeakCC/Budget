@@ -73,3 +73,7 @@ li small, li small em {
 .inline-form {
     display: inline;
 }
+
+.form-control {
+  display:inline-block !important;
+}
