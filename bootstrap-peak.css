@@ -60,14 +60,29 @@ ol {
    color: white;
    border: none;
 }
+.btn-primary:hover {
+  background-color: #663366;
+  color: #fff;
+}
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #663366;
+  color: #663399;
+}
+.btn-primary:active:hover,
+.btn-primary.active.focus {
+  background-color: #ccc;
+}
 
-input.email {
+input.form-control {
 	background-color: white;
 	height: 32px;
 	border: none;
 	border-radius: 5px;
 	width: auto;
-
+	display: inline;
+	margin-right: 10px;
+}
 li small, li small em {
 	font-size: 10pt;
 	font-family: 'helveticaNeue-light';
