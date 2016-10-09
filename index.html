@@ -3,7 +3,7 @@
 <html lang=en>
 <head>
 	<meta charset=utf-8> <meta content="IE=edge" http-equiv=X-UA-Compatible> <meta content="width=device-width,initial-scale=1" name=viewport>
-	<meta content="Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development." name=description>
+	<meta content="Cycling budget that goes the distance" name=description>
 	<meta content="Pierre Foucart" name=author>
 	<title>Cycling Budget - ThePeak.cc</title>
 		
@@ -17,9 +17,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </head>
-
 <body>
-
+	
 <header>	
 	<div class="container">
 		<div class="row">
@@ -33,78 +32,23 @@
 <div class="container">
 	<div class="row">
 	<div class="intro">
-		<p>Cycling can be expensive and we want our spendings to be worth it.</p>
-		<p>A distance to spendings ratio is a good way to do a budget that make sense.</p>
+		<p>Cycling is expensive and we all want our spendings to be worth it.</p>
+		<p>A 1$ to 1km spending ratio is a good way to make a budget that make sense.</p>
 	</div>
+	
 <ol>
-	<li>Ratio: 	  <button type="submit" class="btn btn-primary">$1</button> /
-		<select class="dropdown">
-			<option value="mi.">mi.</option>
-			<option value="km">km</option>
-		</select>
-	</li>
-		
 	<li>
-	<form class="form-inline">
-	  <button type="submit" class="btn btn-primary">Connect with Strava</button>
-	</form>
+		<a href="https://www.strava.com/oauth/authorize?client_id=14029&response_type=code&redirect_uri=http://pierrefoucart.com/
+  &scope=view_private&state=budget&approval_prompt=force">Connect with Strava</a>
 	</li>
 	
 	<li>
-	<form class="form-inline">
-	  <div class="form-group">
-		<label class="sr-only" for="exampleInputEmail3">Email address</label>
-		<input type="email" class="form-control email" id="exampleInputEmail3" placeholder="Email">
-	  </div>
-	  <button type="submit" class="btn btn-primary">Send budget</button>
-	</form>
-	<br><small>We will send you how much you can spend this year. We will never share your information.</small>
+		<form class="inline-form">
+			<label class="sr-only" for="exampleInputEmail3">Email address</label>
+			<input type="email" class="form-control email" id="exampleInputEmail3" placeholder="Email"><button type="submit" class="btn btn-primary">Send report</button>
+		</form>
+	<br><small>We will send you how much you can spend. You will receive an update every month based on your performances.</small>
 	</li>
-	
-	<li>Enter your spendings
-		<form class="form-inline">
-		  <div class="form-group">
-		    <label class="sr-only numbers" for="exampleInputAmount">Amount (in dollars)</label>
-		    <div class="input-group">
-		      <div class="input-group-addon">Bike</div>
-		      <input type="text" class="form-control" id="exampleInputAmount" placeholder="$0">
-		      <div class="input-group-addon">.00</div>
-		    </div>
-		  </div>
-		</form>	
-		<form class="form-inline">
-		  <div class="form-group">
-		    <label class="sr-only numbers" for="exampleInputAmount">Amount (in dollars)</label>
-		    <div class="input-group">
-		      <div class="input-group-addon">Clothing</div>
-		      <input type="text" class="form-control" id="exampleInputAmount" placeholder="$0">
-		      <div class="input-group-addon">.00</div>
-		    </div>
-		  </div>
-		</form>	
-		<form class="form-inline">
-		  <div class="form-group">
-		    <label class="sr-only numbers" for="exampleInputAmount">Amount (in dollars)</label>
-		    <div class="input-group">
-		      <div class="input-group-addon">Accessories</div>
-		      <input type="text" class="form-control" id="exampleInputAmount" placeholder="$0">
-		      <div class="input-group-addon">.00</div>
-		    </div>
-		  </div>
-		</form>	
-		<form class="form-inline">
-		  <div class="form-group">
-		    <label class="sr-only numbers" for="exampleInputAmount">Amount (in dollars)</label>
-		    <div class="input-group">
-		      <div class="input-group-addon">Components</div>
-		      <input type="text" class="form-control" id="exampleInputAmount" placeholder="$0">
-		      <div class="input-group-addon">.00</div>
-		    </div>
-		  </div>
-		</form>	
-	</li>
-
-	<li>Receive a spending report <small>We will send you how much is left to spend... <em>or how much more you should cycle to pay for all of this.</em></small></li>
 </ol>
 
 	</div>
