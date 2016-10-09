@@ -20,11 +20,14 @@ h1 {
 	color: white;
 	font-size: 22pt;
 }
-div.intro {
+div.intro, div.notes {
 	font-family: 'helveticaNeue-light';
 	font-size: 12pt;
 	color: #333333;
 	padding: 10pt 0 20pt 0;
+}
+div.notes {
+	font-size: 10pt;
 }
 
 ol {
@@ -75,5 +78,5 @@ li small, li small em {
 }
 
 .form-control {
-  display:inline-block !important;
+	display:inline !important;
 }
