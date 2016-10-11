@@ -89,10 +89,6 @@ li small, li small em {
 	font-family: 'helveticaNeue-light';
 }
 
-.inline-form {
-    display: inline;
-}
-
-.form-control {
-	display:inline !important;
+form {
+    display:inline;
 }
